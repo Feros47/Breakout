@@ -1,0 +1,13 @@
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.csproj.AssemblyReference.cache
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.AssemblyInfoInputs.cache
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.AssemblyInfo.cs
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.csproj.CoreCompileInputs.cache
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.sourcelink.json
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\bin\Debug\net5.0\DIKUArcade.deps.json
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\bin\Debug\net5.0\DIKUArcade.dll
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\bin\Debug\net5.0\DIKUArcade.pdb
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.dll
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\refint\DIKUArcade.dll
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\DIKUArcade.pdb
+C:\Users\nikla\OneDrive\Skrivebord\Coding\SU\DIKUGames\DIKUArcade\DIKUArcade\obj\Debug\net5.0\ref\DIKUArcade.dll

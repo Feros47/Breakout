@@ -1,0 +1,46 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>329</x><y>117</y><w>189</w><h>72</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+/BaseBlock/
+--
++ Value : int
++ Health: int
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>365</x><y>0</y><w>126</w><h>36</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+IGameEventProcessor
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>446</x><y>54</y><w>90</w><h>36</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+ICollidable
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>54</y><w>99</w><h>36</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+IBreakoutEntity
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>356</x><y>81</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>482</x><y>81</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>419</x><y>27</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>428</x><y>225</y><w>90</w><h>27</h></coordinates><panel_attributes>Block
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>464</x><y>180</y><w>27</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>311</x><y>270</y><w>225</w><h>126</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+/BaseBlockDecorator/
+--
+- decoratedBlock: BaseBlock
+--
+Responsibilities
+-- Provide default implementation of BaseBlock methods by calling the method on decoratedBlock.
+
+
+style=wordwrap
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>392</x><y>180</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>365</x><y>180</y><w>27</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>365</x><y>180</y><w>27</w><h>99</h></coordinates><panel_attributes>lt=&lt;-
+layer=0</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>203</x><y>432</y><w>351</w><h>72</h></coordinates><panel_attributes>UnbreakableBlockDecorator
+--
++ HandleCollision(): void
++ AcceptCollision(v: ICollisionVisitor, d: CollisionData): void
++ ProcessEvent(e: GameEvent): void
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>230</x><y>657</y><w>351</w><h>54</h></coordinates><panel_attributes>MovingBlockDecorator
+--
++ Update(): void
++ AcceptCollision(v: ICollisionVisitor, d: CollisionData): void
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>311</x><y>513</y><w>225</w><h>72</h></coordinates><panel_attributes>PowerUpBlockDecorator
+--
++ HandleCollision(): void
++ ProcessEvent(e: GameEvent): void
++ Render(): void 
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>401</x><y>594</y><w>171</w><h>54</h></coordinates><panel_attributes>HazardBlockDecorator
+--
++ HandleCollision(): void
++ Render(): void
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>383</x><y>720</y><w>198</w><h>54</h></coordinates><panel_attributes>HardenedBlockDecorator
+--
++ HandleCollision(): void
++ Render(): void
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>527</x><y>279</y><w>90</w><h>495</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;80;10;80;530;60;530</additional_attributes></element><element><id>Relation</id><coordinates><x>527</x><y>297</y><w>81</w><h>414</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;70;10;70;440;60;440</additional_attributes></element><element><id>Relation</id><coordinates><x>527</x><y>315</y><w>72</w><h>333</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;60;10;60;350;50;350</additional_attributes></element><element><id>Relation</id><coordinates><x>527</x><y>333</y><w>54</w><h>252</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;40;10;40;260;10;260</additional_attributes></element><element><id>Relation</id><coordinates><x>419</x><y>387</y><w>27</w><h>63</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element></diagram>

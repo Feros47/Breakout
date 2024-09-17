@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>264</x><y>200</y><w>320</w><h>112</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+ICollisionVisitor
+--
++ Collide(x: Player, d: CollisionData): void
++ Collide(x: Ball, d: CollisionData): void
+*ETC..*
+--
+ICollisionVisitor defines a Collide-method for all ICollidable classes.
+
+style=wordwrap
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>320</y><w>144</w><h>40</h></coordinates><panel_attributes>BallCollisionVisitor
+--
+Overrides: Ball, Baseblock
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>376</y><w>144</w><h>40</h></coordinates><panel_attributes>PlayerCollisionVisitor
+--
+Overrides: Ball, DropItem
+
+
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>304</y><w>40</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>30;10;30;40;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>304</y><w>56</w><h>112</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>50;10;50;120;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>80</y><w>320</w><h>96</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+ICollidable
+--
++ AcceptCollision(v: ICollisionVisitor, d: CollisionData): void
++ MakeVisitor(): ICollisionVisitor
++ GetShape(): DynamicShape
++ ShouldIgnore(): bool
+
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>168</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>448</x><y>360</y><w>120</w><h>24</h></coordinates><panel_attributes>ExtraCollisionVisitor1
+fontsize=14</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>456</x><y>344</y><w>24</w><h>32</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>456</x><y>344</y><w>136</w><h>24</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>568</x><y>344</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>368</y><w>32</w><h>24</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>464</x><y>336</y><w>24</w><h>32</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>464</x><y>336</y><w>136</w><h>24</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>336</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>568</x><y>360</y><w>32</w><h>24</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>304</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element></diagram>

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "pVGhA9HLd8ZEhczybCiQhJaWR/jVRPBeENg1i6SD34JgdVewll2vpNbl1WJjntRmzF0vuIoX4fiigJrh1Zfejw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\TestDIKUArcade\\TestDIKUArcade.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk\\4.5.0\\opentk.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.compute\\4.5.0\\opentk.compute.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.core\\4.5.0\\opentk.core.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.graphics\\4.5.0\\opentk.graphics.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.input\\4.5.0\\opentk.input.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.mathematics\\4.5.0\\opentk.mathematics.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.openal\\4.5.0\\opentk.openal.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.redist.glfw\\3.3.0-pre20200830200122\\opentk.redist.glfw.3.3.0-pre20200830200122.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.windowing.common\\4.5.0\\opentk.windowing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.windowing.desktop\\4.5.0\\opentk.windowing.desktop.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.5.0\\opentk.windowing.graphicslibraryframework.4.5.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\system.drawing.common\\5.0.1\\system.drawing.common.5.0.1.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\nikla\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

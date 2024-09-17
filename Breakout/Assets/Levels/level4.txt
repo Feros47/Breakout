@@ -1,0 +1,47 @@
+Map:
+i--i--i--i-i
+------------
+------------
+------------
+------------
+------------
+--00000000--
+------------
+-k---k---k--
+------------
+-#bb#bb#bb#-
+------------
+------------
+--wwwkwwww--
+------------
+------------
+------------
+--y-----y---
+-----j------
+y----------y
+------------
+------------
+------------
+------------
+------------
+Map/
+
+Meta:
+Name: LEVEL 4
+Time: 120
+PowerUp: #
+Moving: k,j
+Unbreakable: y,j
+Hardened: i
+Meta/
+
+Legend:
+0) orange-block.png
+w) darkgreen-block.png
+#) green-block.png
+y) brown-block.png
+b) yellow-block.png
+i) darkgreen-block.png
+j) red-block.png
+k) grey-block.png
+Legend/

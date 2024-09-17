@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\TestDIKUArcade\\TestDIKUArcade.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj",
+        "projectName": "DIKUArcade",
+        "projectPath": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj",
+        "packagesPath": "C:\\Users\\nikla\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\DIKUArcade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\TestDIKUArcade\\TestDIKUArcade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\TestDIKUArcade\\TestDIKUArcade.csproj",
+        "projectName": "TestDIKUArcade",
+        "projectPath": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\TestDIKUArcade\\TestDIKUArcade.csproj",
+        "packagesPath": "C:\\Users\\nikla\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\TestDIKUArcade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nikla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj": {
+                "projectPath": "c:\\Users\\nikla\\OneDrive\\Skrivebord\\Coding\\SU\\DIKUGames\\DIKUArcade\\DIKUArcade\\DIKUArcade.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
